@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ReactiveObjC-bm'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ReactiveObjC-bm.'
+  s.version          = '3.1.1.1'
+  s.summary          = 'ReactiveObjC with no privacy'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ReactiveObjC with no privacy.
                        DESC
 
   s.homepage         = 'https://github.com/PeterJames4719/ReactiveObjC-bm'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'PeterJames4719' => 'daasan123@163.com' }
+  s.author           = { 'Peter' => 'peterwu@bloomadtech.com' }
   s.source           = { :git => 'https://github.com/PeterJames4719/ReactiveObjC-bm.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'ReactiveObjC-bm/Classes/**/*'
   

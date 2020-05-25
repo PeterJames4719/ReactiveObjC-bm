@@ -1,0 +1,16 @@
+PODS:
+  - ReactiveObjC-bm (3.1.1.1)
+
+DEPENDENCIES:
+  - ReactiveObjC-bm (from `../`)
+
+EXTERNAL SOURCES:
+  ReactiveObjC-bm:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReactiveObjC-bm: 3d321416bd97362e467dd30794d8032a499476b8
+
+PODFILE CHECKSUM: 12c56c4dd49ac2ba2980aed775e5e5a756104474
+
+COCOAPODS: 1.9.1

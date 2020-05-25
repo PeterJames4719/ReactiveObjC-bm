@@ -7,6 +7,7 @@
 //
 
 #import "BMViewController.h"
+#import <ReactiveObjC.h>
 
 @interface BMViewController ()
 
@@ -17,7 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    RACSubject *s = [RACSubject subject];
+    
+    [s sendNext:@""];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

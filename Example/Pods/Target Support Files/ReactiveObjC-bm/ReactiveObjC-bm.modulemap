@@ -1,0 +1,6 @@
+framework module ReactiveObjC_bm {
+  umbrella header "ReactiveObjC-bm-umbrella.h"
+
+  export *
+  module * { export * }
+}

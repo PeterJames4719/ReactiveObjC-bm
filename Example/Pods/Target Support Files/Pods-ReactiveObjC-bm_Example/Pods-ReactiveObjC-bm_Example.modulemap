@@ -1,0 +1,6 @@
+framework module Pods_ReactiveObjC_bm_Example {
+  umbrella header "Pods-ReactiveObjC-bm_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

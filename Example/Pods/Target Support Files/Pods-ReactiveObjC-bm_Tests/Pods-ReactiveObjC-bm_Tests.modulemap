@@ -1,0 +1,6 @@
+framework module Pods_ReactiveObjC_bm_Tests {
+  umbrella header "Pods-ReactiveObjC-bm_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
